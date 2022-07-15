@@ -20,7 +20,7 @@ public class Fluxo {
             
             try {
             	int a = i / 0;            	
-            }catch(Exception ex){
+            }catch(ArithmeticException | NullPointerException ex){
             	System.out.println(ex.getMessage());
             	ex.printStackTrace();
             }
