@@ -4,7 +4,9 @@ public class Fluxo {
         System.out.println("Ini do main");
          try {
         	 metodo1();	 
-         }catch(MinhaExcecao ex){
+         //}catch(MinhaExcecao ex){
+         }catch(Exception ex){ //forma genérica de chamar qualquer exceção
+        	 
         	 System.out.println(ex.getMessage());
          }
         
